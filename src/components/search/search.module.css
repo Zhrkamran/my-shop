@@ -1,0 +1,36 @@
+.button-search{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.svg{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.form-search{
+    display: flex;
+    align-items:center;
+    border-radius: 7px;
+    background-color: #ececec;
+    padding: 5px 10px;
+}
+.input-search{
+    width: calc(100% - 25px);
+    background-color: transparent;
+    border: none;
+}
+@media screen and (min-width: 768px) {
+    .form-search{
+        min-width: 300px;
+    }
+}
+.input-search::placeholder{
+    font-family: "IRANSans";
+}
+.input-search::-moz-placeholder{
+    font-family: "IRANSans";
+}
+.input-search::-webkit-input-placeholder{
+    font-family: "IRANSans";
+}

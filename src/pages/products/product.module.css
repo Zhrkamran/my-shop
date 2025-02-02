@@ -1,0 +1,17 @@
+.grid-container{
+    display: grid;
+    gap: 1rem;
+}
+@media (min-width: 1024px) {
+    .grid-container {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  }
+  .pro-section {
+    background-color: #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .grid-container a{
+    text-decoration: none;
+  }

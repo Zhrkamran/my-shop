@@ -1,0 +1,33 @@
+.old-price {
+    text-decoration: line-through;
+    color: #918b8b;
+    font-size: 20px;
+  }
+  .total-price {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .product-section{
+    background-color: #f5f4f2;
+  }
+  .card{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 1.5rem;
+  }
+  .description{
+    font-weight: 300;
+    line-height: 2.2;
+    text-align: justify;
+  }
+  .product-name{
+    font-size: 18px;
+  }
+  .discount-price{
+    background-color: #d9302d;
+    color: #fff;
+    padding: 0px 9px;
+    border-radius: 25px;
+    display:inline-block;
+    margin-right: 10px;
+  }

@@ -1,0 +1,42 @@
+.article-section{
+    background-color: #eee;
+}
+.grid-container {
+    display: grid;
+    gap: 1rem;
+  }
+  @media (min-width: 1024px) {
+    .grid-container {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  }
+  .title-section {
+    position: relative;
+  }
+  .title-section::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -7px;
+    width: 100%;
+    height: 1px;
+    background-color: #797979;
+    border-radius: 25px;
+  } 
+  .title-section span {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+  }
+  .title-section span::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 4px;
+    background-color: #d9302d;
+    border-radius: 25px;
+    z-index: 1;
+  }

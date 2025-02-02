@@ -1,0 +1,43 @@
+.footer-contact li {
+    display: block;
+    margin-bottom: 10px;
+  }
+.icon-li{
+    display: inline-block;
+}
+.icon-li svg{
+    width: 15px;
+    vertical-align: middle;
+    margin-left: 5px;
+    fill: #a5a7ac;
+}
+.text-li {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    text-align: right;
+    color: #000;
+  }
+ .bld {
+    font-weight: 300;
+    color: #000;
+  } 
+  .sale-cal {
+    position: relative;
+    padding-left: 14px;
+  }
+  .text-li .sale-cal:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    left: 8px;
+    top: -2px;
+  }
+  .cal {
+    direction: ltr;
+    display: inline-block;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-decoration: none;
+  }

@@ -1,0 +1,13 @@
+.cart-btn{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+.cart-btn svg{
+    width: 24px;
+    height: 24px;
+    fill: #40454f;
+    vertical-align: middle;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1)
+}

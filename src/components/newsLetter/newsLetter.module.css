@@ -1,0 +1,39 @@
+.title-footer{
+    font-size: 13px;
+  font-weight: 600;
+  display: block;
+  position: relative;
+  color: #000;
+}
+.frm-news-letter form {
+    border: 1px solid #f0f0f0;
+    padding: 5px 10px 5px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f0f0f0;
+  }
+  .frm-news-letter input{
+    background-color: #f0f0f0;
+    width: calc(100% - 26px);
+  }
+  .btn-news-letter{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  .btn-news-letter svg{
+    width: 25px;
+    vertical-align: middle;
+    margin-left: 7px;
+  }
+@media screen and (min-width: 992px) {
+    .title-footer ,.frm-news-letter {
+      justify-content: flex-end;
+      display: flex;
+    }
+    .frm-news-letter form {
+        max-width: 226px;
+      }
+  }

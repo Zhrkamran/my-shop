@@ -1,0 +1,16 @@
+.container-fluid{
+    width: 100%;
+    display: block;
+}
+header{
+    background-color: #fff;
+    box-shadow:  0 1px 0 rgba(0,0,0,.14),0 2px 0 rgba(0,0,0,.05);
+}
+.divider{
+    background-color: #dbdbdd;
+    margin-left: 12px;
+  margin-right: 12px;
+  width: 1px;
+  height: 24px;
+  display: inline-block;
+}

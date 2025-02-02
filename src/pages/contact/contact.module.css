@@ -1,0 +1,28 @@
+.card{
+    padding: 5px 10px;
+    display: block;
+    border-bottom: 2px solid #f2f2f2;
+    position: relative;
+    background-color: #eeeeee3d;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+  .tiltle-page{
+      padding: 5px 10px;
+      display: block;
+      border-bottom: 2px solid #f2f2f2;
+      position: relative;
+      font-size: 18px;
+  }
+  .text {
+      text-align: justify;
+      line-height: 2.5;
+    }
+    .iframe{
+      width: 100%;
+      height: 400px;
+    }
+    @media screen and (min-width: 768px) {
+  
+    }  

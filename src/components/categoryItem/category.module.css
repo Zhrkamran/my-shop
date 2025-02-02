@@ -1,0 +1,12 @@
+.main-img-category{
+    display: inline-block;
+    text-decoration: none;
+}
+.logo-category-image img {
+    width: 9rem !important;
+    margin: auto;
+}
+.layer-category {
+    color: rgb(47, 52, 58) !important;
+    font-size: 12px;
+  }

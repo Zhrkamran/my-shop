@@ -1,0 +1,10 @@
+.container-wrapper{
+    width: 95%;
+    max-width: 1676px !important;
+    margin: 0 auto;
+}
+@media screen and (max-width: 767.99px) {
+    .container-wrapper{
+      width: 100% !important;
+    }
+    }
