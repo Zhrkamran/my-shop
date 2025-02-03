@@ -5,7 +5,7 @@ function ArticleItem() {
     <>
     <a href="" className={styled['item-news']}>
        <div className={`d-block  position-relative ${styled["img-special"]}`}>
-          <img src="https://nonegar2.ir/km/article1.jpg" alt=""/>
+          <img src="https://nonegar14.ir/km/article1.jpg" alt=""/>
        </div>
         <div className={`flex mt-3 pe-3 ps-3 ${styled['flex-news']}`}>
         <div className={styled["news-category"]}>

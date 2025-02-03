@@ -18,7 +18,7 @@ function Header() {
                    <div className='flex align-items-center'>
                      <div>
                       <Link to="/" className='d-inline-block'>
-                        <img src='https://nonegar2.ir/km/logo.png' className='img-fluid'/>
+                        <img src='https://nonegar14.ir/km/logo.png' className='img-fluid'/>
                       </Link>
                        
                      </div>
